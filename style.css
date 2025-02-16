@@ -48,18 +48,50 @@ section::after {
 .container .card {
     height: 100%;
     width: 100%;
+    padding: 25px;
     border-radius: 25px;
     backdrop-filter: blur(25px);
     background: rgba(255, 255, 255, 0.1);
     box-shadow: 0 25px 45px rgba(0, 0, 0, 0.25);
     border: 1px solid rgba(255, 255, 255, 0.1);
 }
+.font-face header,
+.font-face .logo{
+    display: flex;
+    align-items: center;
+
+}
+.font-face header{
+    justify-content: space-between;
+}
 .font-face .logo img{
     width: 48px;
+    margin: 10px;
 
 
 }
 h5{
     font-size: 16px;
     font-weight: normal;
+}
+.font-face .chip{
+    width: 45px;
+
+}
+.font-face .card-details{
+    display: flex;
+    margin-top: 40px;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+h6{
+    font-size: 10px;
+    font-weight: normal;
+}
+h5.number{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+h5.name{
+    margin-top: 20px;
 }
